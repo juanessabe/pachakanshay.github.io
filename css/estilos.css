@@ -1,0 +1,412 @@
+
+
+/*selector de etiqueta header - section - article - nav */
+
+/*header { 
+    background: white;
+    color: #5E5E5E
+}*/
+
+/*selector desendente .. un elemento hijo*/
+/* body header div nav ol li a || toma todas las a que hay */
+
+/* selector de clase .*/
+/* .link */
+
+/* selector de id # */ 
+/* #portafolio*/
+/*body{
+   font-family: Raleway, sans-serif; 
+}*/
+/*h1 strong{
+    color: red
+} Ponerle color diferente a todo lo que esté dentro de strong en el h1, en este caso es juanes*/
+body{
+    margin: 0;
+    
+}
+
+.tittle-seccion-1{ /*PROYECTOS (LOS MÁS DESTACADOS)*/
+    font-family: Raleway, Montserrat, sans-serif;
+    margin: 0px;
+    padding: 50px;
+    padding-bottom: 15px;
+    color: #E0A205;
+    font-size: 35px;
+}
+/* --------------- CABECERA------------------- */
+.header {
+    -webkit-box-shadow: -1px 2px 16px -2px rgba(194,177,194,1);
+    -moz-box-shadow: -1px 2px 16px -2px rgba(194,177,194,1);
+    box-shadow: -1px 2px 16px -2px rgba(194,177,194,1);
+    border-radius: 40px;
+    background-color: #FFFFFF; /*Fondo del Header*/
+    color: #5E5E5E; /*Color número del header*/
+    font-family: Raleway, sans-serif; 
+    height: 90px; /* alto */ 
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 10px; 
+}
+
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.header a {
+    color: #5E5E5E; /* Color del menú*/
+    font-weight: 400; /* Grosor del menú*/
+    font-size: 25px;
+    text-decoration: none; /* subrayado del menú*/
+    font-family: Raleway, sans-serif; 
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+.container-welcome{
+    /* border: 1px solid red;*/
+    width: 1480px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+/* --------------- SECCIÓN PRINCIPAL ------------------- */
+
+
+.hero { 
+    background-image: url('../images/hero3.png');
+    background-size: 4000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background-image: url('../images/hero2.png');*/
+    /*background-size: 2854px 290px;*/
+    /*background-position: center; */
+    /*background-repeat: no-repeat; */
+}
+
+.hero-image{
+    object-fit: cover;
+}
+
+.tittle-welcome {
+    font-family: Raleway, sans-serif; 
+    line-height: 53px;
+    font-weight: 450;
+    letter-spacing: -2px; /* Kerning*/
+    font-size: 50px;
+    color: white;
+    margin-top: 23px;
+    margin-left: 150px; 
+    /*font-style: oblique;*/
+    /* text-transform: uppercase; si deseo cambiar el MAYUS de mi fuente*/
+    /* text-decoration: underline; subrayados y otros decorados*/
+}
+/* --------------- ELEMENTOS DE PORTAFOLIO ------------------- */
+.portfolio{
+    background-color: #FAFAFA; 
+    padding: 20px;
+}
+
+.project-1{
+     /*  border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid yellow;*/
+    /*border-color: #027fff ; */
+    /*border-top-color: red;
+    border-top-width: 15px;
+    border-top-style: solid; */
+    -webkit-box-shadow: -1px 2px 16px -2px rgba(194,177,194,1);
+    -moz-box-shadow: -1px 2px 16px -2px rgba(194,177,194,1);
+    box-shadow: -1px 2px 16px -2px rgba(194,177,194,1);
+    border-radius: 40px;
+    padding: 50px;
+    margin: 50px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /*border-top-left-radius: 10px;  una sola esquina redondeada*/
+}
+
+.project-1-details{
+    width: 700px;
+    margin-right: 300px;
+    box-sizing: border-box;
+}
+/* --------------- TEXTOS DENTRO DEL PROYECTO ------------------- */
+.project-1-tittle{ /* TÍTULO DE PROYECTOS*/
+    font-family: 'Spectral SC', times, serif;
+    font-size: 50px;/* Tamaño */
+    font-weight: 700;
+    line-height: 60px; /*Espaciado Interlineado*/ 
+    letter-spacing: -4px; /* Kerning*/
+    margin-right: -400px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+
+.project-1-subtittle{ /* SUBTITULOS DE PROYECTOS*/
+    font-family: Montserrat, raleway, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5E5E5E;
+    margin-top: 10px;
+}
+
+.project-1-date{ /* FECHAS DE PROYECTOS*/
+    font-family: Montserrat, raleway, sans-serif;
+    font-size: 20px; /* Tamaño*/
+    font-weight: 500;
+    color: #5E5E5E;
+    line-height: 2px;
+    margin-bottom: 3px;
+}
+.project-1-date strong{
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.project-1-url{ /* LINKS DE PROYECTOS*/
+    font-family: Montserrat, raleway, sans-serif;
+    font-size: 20px; /* Tamaño*/
+    font-weight: 500;
+    color: #5E5E5E;
+    line-height: 25px;
+    margin-right: -16px;
+    margin-bottom: 50px; 
+}
+.project-1-url strong{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.project-1-url a{
+    color: black;
+}
+
+.project-1-description{
+    font-family: Raleway, lato, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /*Espaciado vertical*/ 
+    color: black;
+    margin-right: -300px;
+}
+
+
+.project-1-imageContainer { /*Reel*/ 
+    width: -10px;
+    margin-left: 50px;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+.project-2-imageContainer { /*Ingeniería de Sonrisas*/ 
+    width: -10px;
+    margin-left: 50px;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+.project-3-imageContainer { /*Doberman PD*/ 
+    width: -10px;
+    margin-left: 50px;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+.tittle-seccion-2{ /* MÁS SOBBRE MI EXPERIENCIA*/
+    font-family: Raleway, Montserrat, sans-serif;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding: 50px;
+    padding-bottom: 15px;
+    color: #E0A205;
+    font-size: 35px;
+}
+
+.exp-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.experiences-1{
+    -webkit-box-shadow: -1px 2px 16px -2px rgba(194,177,194,1);
+    -moz-box-shadow: -1px 2px 16px -2px rgba(194,177,194,1);
+    box-shadow: -1px 2px 16px -2px rgba(194,177,194,1);
+    border-radius: 40px;
+    overflow: hidden;
+    margin: 10px;
+    width: 480px; 
+    flex-shrink: 0;
+    background-color: #f9eccf;
+    flex-wrap: wrap;
+}
+
+.experiences-1 img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.experiences-detail{
+    margin: 20px 40px;
+    margin-top: -60px; 
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.experiences-1-tittle{
+    font-family: Montserrat, lato, sans-serif;
+}
+
+.experiences-1-description{
+    text-align: left;
+    font-family: Raleway, lato, sans-serif;
+    color: #5E5E5E;
+}
+
+.experiences-1-url{
+    font-family: Raleway, lato, sans-serif;
+    border: 1px solid #e0a205;
+    border-radius: 50px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #e0a205;
+}
+
+.container-header{
+    /*border: 1px solid red;*/
+    width: 1480px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: space-around;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.contact {
+    margin-top: 100px;
+    background-image: url('../images/zona-contacto.png');
+    background-size: 9000px;
+    background-repeat: no-repeat;
+    color: white;
+    height: 300px;/* alto */ 
+    widows: 500px;/* ancho */ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social{
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+
+/*.social-link.twitter{
+    background-image: url('../images/twitter.svg');
+}*/ 
+
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+}
+
+/*.social-link.behance{
+    background-image: url('../images/behance.svg');
+}*/
+
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+}
+
+.form-email input{
+    border-color: gray;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 5px 20px 5px 25px;
+    background-image: url('../images/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+.form-email button{
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 10px;
+   /* margin: 10px auto 0;*/
+}
+
+.form-email-tittle{
+    font-family: 'Raleway black', lato, sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px; 
+    margin-top: 5px; 
+}
+
+.footer{
+    background-color: white;
+    font-family: Raleway, lato, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.footer a{
+    color: black;
+}
+
